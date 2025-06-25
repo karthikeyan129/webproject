@@ -1,0 +1,324 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  *{
+    padding: 0%;
+    margin: 0%;
+  }
+  .navbar{
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+  }
+  .navbar-links{
+    display: flex;
+    column-gap: 20px;
+  }
+  .navbar-links a{
+    text-decoration: none;
+    color: #1d232c;
+  }
+  .navbar-links a:hover{
+    text-decoration: underline;
+
+  }
+  .navbar-menu-toggle{
+    display: none;
+  }
+  @media screen and (max-width:700px){
+    .navbar-menu-toggle{
+      display: block;
+    }
+    .navbar-links{
+      display: none;
+    }
+    .image{
+      display: none;
+    }
+    .service1{
+      display: none;
+    }
+    .service2{
+      flex-direction: column;
+    }
+   }
+  .side-navbar{
+    background-color: #1d232c;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 20px;
+    color: antiquewhite;
+    display: none;
+    
+  }
+  .side-navbar-link{
+    margin-bottom: 30px;
+    
+  }
+  .side-navbar-links a{
+    text-decoration: none;
+    color: antiquewhite;
+  }
+  .side-navbar-links a:hover{
+    text-decoration: underline;
+
+  }
+  .image{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+  }
+  .header{
+    text-align: center;
+    gap: 50px;
+    padding: 50px;
+    padding-top: 30px;
+  }
+  .buttons{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1d232c;
+    color: antiquewhite;
+    cursor: pointer;
+    border-radius: 5px;
+    
+  }
+  .service1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .service2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .service2 div{
+    background-color: #f2f4f7;
+    border-radius: 10px;
+    padding: 10px;
+
+  }
+ .new-arrival-container img{
+  height: 200px;
+  width: 200px;
+ }
+ 
+  
+  
+ 
+ .new-arrival-container{
+  display: flex;
+  
+  justify-content: space-around;
+  position: relative;
+  flex-basis: 20%;
+  flex-wrap: wrap;
+ }
+ .new-arrival-container button{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #1d232c;
+  border-radius: 10px;
+  
+ }
+
+ .new1{
+  padding: 20px;
+ }
+ .hr1{
+  margin: 10px;
+  bottom: 10px;
+
+ }
+ .design{
+  text-align: center;
+  padding: 20px;
+ }
+ .sub1{
+  
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #f2f4f7;
+  background-color: #1d232c;
+ }
+ .candy-container{
+  padding: 20px;
+  color: #f2f4f7;
+  background-color: #1d232c;
+ }
+ .products img{
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+ }
+ .product-section{
+  margin-top: 20px;
+ }
+ .product-search{
+  width: 80%;
+  border: solid black 2px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+ }
+.product-search input{
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+.product-search input:focus{
+  outline: none;
+}
+.products{
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+  flex-basis: 20%;
+  
+}
+.contact1{
+  text-align: center;
+  padding: 20px;
+  margin-top: 200px;
+   
+  background-color:#1d232c;
+  color: floralwhite;
+  align-items: center;
+
+  margin-bottom: 50px;
+}
+.contact1 h1{
+  margin-bottom: 20px;
+}
+.contact1 p{
+  margin: 7px;
+}
+  
+
+  
